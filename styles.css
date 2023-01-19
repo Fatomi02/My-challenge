@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    width: 210px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+button{
+    background-color: white;
+    border-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    height: 30px;
+    width: 95px;
+}
+button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+/* Class Selectors */
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+.first-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+}
+.second-container{
+    padding: 20px;
+    justify-content: center;
+    background-color: hsl(31, 77%, 52%);
+}
+.third-container{
+    padding: 20px;
+    justify-content: center;
+    background-color: hsl(184, 100%, 22%);
+}
+.fourth-container{
+    padding: 20px;
+    justify-content: center;
+    background-color: hsl(179, 100%, 13%);
+}
+
